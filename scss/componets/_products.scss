@@ -1,0 +1,82 @@
+.products {
+  padding: 127px 112px 119px 114px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 259px;
+    &--btn {
+      width: 40px;
+      height: 40px;
+      color: $white;
+      z-index: 33;
+    }
+  }
+  &__cards {
+    border-radius: 24px;
+    width: 329px;
+    height: 525px;
+    &:nth-child(1) {
+      background: $light-pink;
+    }
+    &:nth-child(2) {
+      background: $coffee;
+    }
+    &:nth-child(3) {
+      background: $light-green;
+    }
+    &--title {
+      font-family: "Titan One", sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+    }
+    &--text {
+      font-family: "DM Sans", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 176%;
+      letter-spacing: 0.04em;
+      text-align: center;
+      color: $white;
+      width: 241px;
+      margin: 0 auto;
+    }
+  }
+
+  &__subtitle {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $pink;
+  }
+
+  &__title {
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-size: 58px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $dark-pink;
+    margin-top: 15px;
+  }
+
+  &__dots {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 32px 0;
+  }
+  &__img--wrap img {
+    position: relative;
+    bottom: 223px;
+  }
+  &__img--wrap {
+    height: 152px;
+  }
+}

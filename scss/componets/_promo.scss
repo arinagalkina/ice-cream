@@ -1,0 +1,146 @@
+.promo {
+  padding: 38px 0 0 0;
+  background: $light-pink;
+  &__link {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 16px;
+    color: $white;
+    &:hover {
+      color: $dark-pink;
+      transition: 0.5s all;
+    }
+  }
+
+  &__btn--buy {
+    border-radius: 22px;
+    width: 159px;
+    height: 44px;
+    background: $white;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: $dark-pink;
+    border: none;
+    cursor: pointer;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    gap: 35px;
+  }
+
+  &__title {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $white;
+    width: 277px;
+    margin-top: 84px;
+  }
+  &__span {
+    font-size: 58px;
+    line-height: 90%;
+    font-family: "Titan One";
+    color: $dark-pink;
+    font-weight: 400;
+  }
+  &__btn1 {
+    width: 102px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: $white;
+    font-family: "DM sans";
+    background: $dark-pink;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  &__btn2 {
+    width: 138px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    background: $white;
+    font-family: "DM sans";
+    color: $dark-pink;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  &__text {
+    font-family: "DM sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    width: 270px;
+  }
+  &__first--wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn--wrap {
+    margin-top: 25px;
+  }
+  &__img--wrap {
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+  }
+
+  &__wrap--other {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__second--wrap {
+    display: flex;
+  }
+
+  &__img--only {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__numbers--wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  &__number--span {
+    font-family: "Titan One";
+    font-weight: 400;
+    font-size: 46px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #d41443;
+  }
+  &__number--item {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    color: #fff;
+  }
+  &__circle {
+    border-radius: 100%;
+    fill: $pink;
+    width: 538px;
+    height: 538px;
+    z-index: 999;
+  }
+}
